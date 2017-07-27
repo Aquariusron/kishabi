@@ -1,8 +1,6 @@
 package test.sort;
 
 public class Sample2 {
-
-	public static void main(String[] args) {
 		/*2017.07.25
 		 * ソート練習第2段
 		 * ・乱数生成はなし
@@ -17,7 +15,7 @@ public class Sample2 {
 
 			try {
 				//配列の初期化
-				array = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ];
+				int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
 				//一応ぷりんと
 				System.out.println( array );
@@ -94,6 +92,9 @@ public class Sample2 {
 
 		}
 
-	}
+
+		public static void main(String[] args) {
+
+		}
 
 }
